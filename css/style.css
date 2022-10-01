@@ -1,0 +1,16 @@
+.container h2 {
+    font-size: 2.2rem;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.quote-sec h2{
+    font-family: 'Pacifico', cursive;
+}
+.right, .left{
+    transition: 0.5s opacity;
+}
+section{
+    transition: 2s all;
+}

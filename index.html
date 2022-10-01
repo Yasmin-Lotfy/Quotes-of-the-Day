@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random quotes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap" rel="stylesheet">
+
+<!--  -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div class="container w-75 m-auto mt-5 text-center">
+        <h2 class=" fw-bolder ">Quote of the Day</h2>
+        <p class="fs-3 py-2">Press The Button Below to Recieve A Random Quote!</p>
+        <button class="btn btn-outline-info my-3 btn-lg" onclick="generateQuote()">New Quote</button>
+
+
+        <section class="quote-sec m-auto text-center py-2 px-4 rounded-5">
+
+            <i id="left" class=" opacity-0 fa-solid fa-quote-left d-block text-start fs-1"></i>
+            <h2 id="quote" class="py-1"></h2>
+            <i id="right" class=" opacity-0 fa-solid fa-quote-right d-block text-end fs-1"></i>
+            <p id="author" class="py-1 text-muted"></p>
+        </section>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
